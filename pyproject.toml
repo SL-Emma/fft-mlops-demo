@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "fft-mlops-demo"
+version = "0.1.0"
+description = "A MLOps demonstration project featuring FFT-based signal processing and automated pipelines."
+authors = ["Emma-Luisa Richter"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.0"
+scipy = "^1.12.0"
+pandas = "^2.2.0"
+scikit-learn = "^1.4.0"
+wandb = "^0.16.0"
+matplotlib = "^3.8.0"
+
+[tool.poetry.group.dev.dependencies]
+# The Interactive/Development Stack
+jupyter = "^1.0.0"
+ipykernel = "^6.29.0"
+# The Testing/Linting Stack
+pytest = "^8.0.0"
+ruff = "^0.2.0"
+black = "^24.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I"]
+
+[tool.black]
+line-length = 88

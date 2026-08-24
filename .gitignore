@@ -1,0 +1,140 @@
+# ==============================================================================
+# Python & Environment
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.bundle/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.coverage
+.coverage.*
+.crc
+.devdatabase
+.debian-installer
+.downloaddata
+.expand
+.field
+.installed
+.pip-debug-log
+.python
+.python-version
+.repo
+.rustup
+.subversion
+.swp
+.venv
+venv/
+env/
+ENV/
+bin/
+include/
+lib/
+local/
+pip-log.txt
+pip-delete-this-directory.txt
+project.log
+pip-selfcheck.txt
+pip-selfcheck.log
+site-packages/
+software.properties
+*.log
+*.rst
+*.spec
+*.lock
+
+# =================================
+# Jupyter Notebooks
+# =================================================================
+.ipynb_checkpoints
+*.ipy
+*.ipynbv
+
+# =================================
+# ML & Data (Large/Generated Files)
+# =================================================================
+# ignore large model weights, datasets, and binary artifacts
+*.pkl
+*.joblib
+*.pth
+*.onnx
+*.h5
+*.npy
+*.npz
+*.csv
+*.parquet
+*.datasets/
+*.models/
+*.weights
+*.bin
+*.tif
+*.tiff
+
+# =================================
+# MLOps & Experiment Tracking (W&B)
+# =================================================================
+# ignore wandb local sync files and logs
+wandb/
+*.wandb
+
+# =================================
+# User Specific & Sensitive (Cruers/Secrets)
+# =================================================================
+.env
+.env.local
+.env.*
+credentials.json
+secrets.py
+*.pem
+*.key
+
+# The user's specific requirement:
+.Modelffile
+
+# =================================
+# IDEs & Operating Systems
+# =================================================================
+# VS Code
+.vscode/
+!.vscode/settings.json  # Allow settings if you want to share them
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# PyCharm / IntelliJ
+.idea/
+
+# macOS
+.DS_Store
+.AppleDouble
+.AppleDB
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# =================================
+# Testing & Coverage
+# =================================================
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+
+# =================================
+# AI
+# =================================================================
+
+*.Modelfile
