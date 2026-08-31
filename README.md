@@ -4,11 +4,11 @@ The accompanying repo to the presentation at the University of Applied Sciences 
 
 **Structure**
 
-01 prototyping  - Notebooks & Raw Experiments  
+01 prototyping  - Notebooks & Raw Experiments, tracking which experiment was the best, hyperparameter tests    
 
-02 engineering  - refactored code, Clean, Modular Python, pytests, controlled dependencies, reproducibility  
+02 engineering  - refactored code, Clean, Modular Python, pytests, controlled dependencies, reproducibility, first versioning, first product  
 
-03 automation  - CI/CD and DevOPs, Github Actions, push to production logic, model / data versioning (model artifacts)  
+03 automation  - CI/CD and DevOPs, Github Actions, push to production logic, model / data versioning (model artifacts), ruff, Weights & Biases  
 
 04 monitoring  - observation and drift detection, dashboard  
 
