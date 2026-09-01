@@ -1,4 +1,7 @@
 import pandas as pd
+from pathlib import Path
+
+Path("data/processed").mkdir(parents=True, exist_ok=True)
 
 df = pd.read_csv(
     "data/raw/bearing_features_N15_M07_F10.csv",
