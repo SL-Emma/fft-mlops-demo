@@ -3,7 +3,6 @@ import sys
 
 import pandas as pd
 
-
 conditions = {
     0: "HEALTHY",
     1: "INNER RING DAMAGE",

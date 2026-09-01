@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 EXPECTED_FEATURES = [
     "I1_RMS",
     "I1_Variance",
