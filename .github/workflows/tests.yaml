@@ -4,10 +4,13 @@ on:
   push:
     paths:
       - "02_engineering/bearing_ml/**"
+      - ".github/workflows/tests.yaml"
 
   pull_request:
     paths:
       - "02_engineering/bearing_ml/**"
+
+  workflow_dispatch:
 
 jobs:
   test:
