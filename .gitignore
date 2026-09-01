@@ -65,17 +65,14 @@ software.properties
 # ML & Data (Large/Generated Files)
 # =================================================================
 # ignore large model weights, datasets, and binary artifacts
-*.pkl
 *.joblib
 *.pth
 *.onnx
 *.h5
 *.npy
 *.npz
-*.csv
 *.parquet
 *.datasets/
-*.models/
 *.weights
 *.bin
 *.tif
