@@ -25,7 +25,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Prepare CI dataset
+      - name: Prepare dataset
         run: python prepare_data.py
 
       - name: Train model
@@ -34,10 +34,11 @@ jobs:
       - name: Check model quality
         run: python check_metrics.py
 
-      - name: Upload model artifact
+      - name: Upload model and registry artifact
         uses: actions/upload-artifact@v4
         with:
           name: bearing-model
           path: |
-            03_automation/models/model.pkl
-            03_automation/metrics/metrics.json
+            03_automation/models/
+            03_automation/metrics/
+            03_automation/model_registry/
